@@ -13,6 +13,8 @@ void func(int n)
 // Using a function-object or functor
 struct PrintFunctor
 {
+    public: 
+
     void operator () (int n)
     {
         cout << n << " ";
